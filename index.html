@@ -94,6 +94,46 @@
                 />
               </svg>
             </button>
+
+            <form class="contact-form" name="contact-form" method="post">
+              <b class="call-contact"
+                >Оставьте свои данные, мы вам перезвоним</b
+              >
+
+              <label class="form-group">
+                <span class="form-label">Имя</span>
+                <input class="form-input" type="text" name="user-name" />
+              </label>
+
+              <label class="form-group">
+                <span class="form-label">Телефон</span>
+                <input class="form-input" type="tel" name="user-phone" />
+              </label>
+
+              <label class="form-group">
+                <span class="form-label">Почта</span>
+                <input class="form-input" type="email" name="user-email" />
+              </label>
+
+              <label class="form-group">
+                <span class="form-label">Комментарий</span>
+                <textarea
+                  class="form-message"
+                  name="user-message"
+                  placeholder="Введите текст"
+                ></textarea>
+              </label>
+
+              <label class="form-agree">
+                <input class="agree-input" type="checkbox" name="user-agree" />
+                <span class="agree-label"
+                  >Соглашаюсь с рассылкой и принимаю
+                  <a class="link-agree" href="">Условия договора</a></span
+                >
+              </label>
+
+              <button class="btn-agree" type="submit">Отправить</button>
+            </form>
           </div>
         </div>
       </section>
@@ -670,6 +710,22 @@
             </li>
           </ul>
         </div>
+
+        <form class="sign-form" name="sign-form" method="post">
+          <b class="call-sign">Подпишитесь на рассылку</b>
+
+          <div class="group">
+            <label class="form-group">
+              <input
+                class="input-form"
+                type="email"
+                name="user-email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="btn-send" type="submit">Подписаться</button>
+          </div>
+        </form>
       </div>
     </footer>
 

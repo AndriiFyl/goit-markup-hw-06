@@ -251,7 +251,8 @@ _________________________ */
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.2);    
+    background-color: rgba(0, 0, 0, 0.2); 
+    z-index: 50;   
 
     transition-property: opacity, visibility;
     transition-duration: 250ms;
@@ -295,6 +296,105 @@ _________________________ */
     border-radius: 50%;
     
 }
+
+
+.form-group {
+    display: inline-flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 10px;
+    
+}
+
+.call-contact {
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 12px;
+
+}
+
+.form-label {
+    margin-bottom: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+        
+    letter-spacing: 0.01em;
+    
+    color: #757575;
+}
+
+.form-input {
+    margin: 0;
+    padding: 0;
+    width: 448px;
+    height: 40px;
+
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    
+}
+
+.form-message {
+    width: 448px;
+    height: 120px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    padding: 12px 16px;
+    margin-bottom: 20px;
+}
+
+.form-message::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    
+    color: rgba(117, 117, 117, 0.5);
+}
+
+.form-agree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.agree-input {
+    margin-right: 8px;
+}
+
+.agree-label {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+
+.link-agree {
+    color: #2196F3;
+}
+
+.btn-agree {
+    width: 200px;
+     height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-color: transparent;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+
+
+
+
 
 
 
@@ -845,6 +945,55 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
  border-bottom: 1px solid #EEEEEE; 
  border-left: 1px solid #EEEEEE; 
 }
+
+.sign-form {
+    margin-left: 93px;
+}
+
+.group {
+    display: flex;
+}
+
+.call-sign {
+        display: block;
+        margin-bottom: 20px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color: #FFFFFF;
+}
+
+.input-form {
+    margin-right: 12px;
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: #2F303A;;
+}
+
+.btn-send {
+
+    width: 200px;
+    height: 50px;
+    background-color: #2196F3;
+    border-color: transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+}
+
 
 
 
