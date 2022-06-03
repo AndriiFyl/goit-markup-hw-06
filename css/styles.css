@@ -861,29 +861,29 @@ ________________________ */
 
 }
 
-.team-list {
+.team {
     display: flex;
     flex-wrap: wrap;
 }
 
-.team-list__item {
+.team__item {
     margin-right: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     background-color: var(--primary-background-color);
 }
 
-.team-list__item:nth-child(4n) {
+.team__item:nth-child(4n) {
     margin-right: 0;
 }
 
 
-.card__box {
+.team__box {
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.card__title {
+.team__title {
     margin-bottom: 10px;
 
     font-weight: 500;
@@ -893,7 +893,7 @@ ________________________ */
     color: var(--primary-text-color);
 }
 
-.card__info {
+.team__info {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -902,7 +902,7 @@ ________________________ */
 }
 
 
-.card__networks-list {
+.team__list-networks {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -910,12 +910,12 @@ ________________________ */
 
 
 
-.card__item-networks:not(:last-child) {
+.team__item-networks:not(:last-child) {
     margin-right: 10px;
 
 }
 
-.card__link-networks {
+.team__link-networks {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -929,14 +929,14 @@ ________________________ */
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
-.card__link-networks:hover,
-.card__link-networks:focus {
+.team__link-networks:hover,
+.team__link-networks:focus {
     background-color: var(--accent-text-color);
     color: var(--primary-background-color);
 }
 
 
-.card__icon-networks {
+.team__icon-networks {
     fill: currentColor;
 }
 
